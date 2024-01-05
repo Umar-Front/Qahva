@@ -1,0 +1,143 @@
+.footer {
+    &__container {
+        background: #2C343E;
+        padding: 47px 85px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        max-width: 622px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+    }
+
+    &__nav-item {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-link {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+
+    &__nav-link:hover {
+        color: #FEFCF7;
+    }
+
+    &__right {
+        max-width: 120px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__right-link:hover {
+        opacity: 0.8;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .footer {
+        &__container {
+            text-align: center;
+            padding: 54px 0;
+            flex-direction: column;
+        }
+
+        &__left {
+            max-width: 283px;
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__logo {
+            margin-bottom: 32px;
+        }
+
+        &__nav-list {
+            margin-bottom: 65px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 728px) {
+    .footer {
+        &__left {
+            max-width: 217px;
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__logo {
+            width: 217px;
+            margin-bottom: 49px;
+        }
+
+        &__nav-list {
+            margin-bottom: 49px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__nav-item {
+            margin-left: 0;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer {
+        &__left {
+            max-width: 217px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__logo {
+            width: 217px;
+            margin-bottom: 49px;
+        }
+
+        &__nav-list {
+            max-width: 122px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 24px;   
+        }
+
+    }
+}

@@ -1,0 +1,106 @@
+.headquarters {
+
+    &__container {
+        max-width: 1085px;
+        margin-bottom: 168px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    &__item-heading-uk {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        padding-top: 95px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+
+    &__item-heading-uk::before {
+        content: "";
+        display: inline-block;
+        background-image: url(./../../images/united_kingdom.svg);
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 49px;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+    }   
+
+    &__item-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__list-item {
+        line-height: 26px;
+        color: #333D4B;
+    }
+
+    &__item-heading-canada {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        padding-top: 95px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+
+    &__item-heading-canada::before {
+        content: "";
+        display: inline-block;
+        background-image: url(./../../images/canada.svg);
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 49px;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+    } 
+    &__item-heading-aus {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        padding-top: 95px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+
+    &__item-heading-aus::before {
+        content: "";
+        display: inline-block;
+        background-image: url(./../../images/australia.svg);
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 49px;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+    } 
+}
+

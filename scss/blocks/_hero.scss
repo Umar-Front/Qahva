@@ -1,0 +1,104 @@
+.hero {
+    margin-bottom: 136px;
+    &__container {
+      background-image: url(./../images/hero_img.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+      background-position: center;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+  
+    &__left {
+      max-width: 493px;
+      max-width: 100%;
+      padding-top: 117px;
+      padding-bottom: 116px;
+      padding-left: 85px;
+    }
+  
+    &__heading {
+      margin: 0;
+      font-family: 'Fraunces';
+      max-width: 493px;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      color: #FEFCF7;
+      margin-bottom: 32px;
+    }
+  
+    &__desc {
+      margin: 0;
+      max-width: 445px;
+      font-family: 'Barlow';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #FEFCF7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      margin-bottom: 56px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hero {
+      margin-bottom: 144px;
+      &__container {
+        background-position: right -200px center;
+      }
+  
+      &__left {
+        max-width: 398px;
+        padding-left: 58px;
+        padding-top: 104px;
+        padding-bottom: 104px;
+      }
+  
+      &__heading {
+        font-size: 48px;
+        line-height: 48px;
+      }
+  
+      &__desc {
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 580px){
+    .hero {
+      margin-bottom: 120px;
+      &__container {
+        background-position: right -200px center;
+        display: flex;
+        justify-content: center;
+      }
+  
+      &__left {
+        margin: 0;
+        padding: 100px 0;
+        max-width: 279px;
+        max-width: 100%;
+        text-align: center;
+      }
+  
+      &__heading{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 24px;
+      }
+  
+      &__desc {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 39px;
+      }
+    }
+  }
+  

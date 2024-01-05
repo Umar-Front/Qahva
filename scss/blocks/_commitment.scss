@@ -1,0 +1,43 @@
+.commitment {
+
+    &__container {
+        padding-left: 85px;
+        padding-right: 85px;
+        display: flex;
+        margin-bottom: 168px;
+    }
+
+    &__left {
+        margin-right: 125px;
+    }
+
+    &__left-img {
+        width: 445px;
+        height: 520px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    &__right {
+        max-width: 540px;
+        padding-top: 90px;
+    }
+
+    &__right-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+
+    &__right-text {
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,54 @@
+.quality {
+
+    &__inner-wrapper {
+        background-color: #2C343E;
+        border-radius: 10px;
+        padding: 88px 0 176px 85px;
+        position: relative;
+        margin-bottom: 168px;
+    }
+
+    &__heading {
+        width: 540px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 540px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+.quality-background {
+    background-image: url(./././././././../../images/quality.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 445px 474px;
+    width: 445px;
+    height: 474px;
+    top: -85px;
+    right: 85px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .quality-background  {
+        background-image: url("./././././././../../images/quality@2x.png");
+    }
+} 
